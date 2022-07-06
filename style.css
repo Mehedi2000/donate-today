@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header-section {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-container {
+    padding: 300px 300px 300px 300px;
+    color: white;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.header-container p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.header-container a {
+    color: white;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
