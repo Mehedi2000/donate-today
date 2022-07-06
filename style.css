@@ -28,13 +28,77 @@ body {
 
 .header-container p {
     font-size: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
-.header-container a {
+.button {
     color: white;
     text-decoration: none;
     background-color: tomato;
-    padding: 15px 20px;
-    border-radius: 5px;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+
+.donate-description {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.donate-description h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.donate-description p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.amount-of-donate {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 200px;
+    margin-bottom: 40px;
+}
+
+.donate-card {
+    background-color: rgb(241, 240, 240);
+    height: 120px;
+    width: 120px;
+    text-align: center;
+
+}
+
+.donate-card-title {
+    font-size: 30px;
+    padding-top: 45px;
+    font-weight: bold;
+    color: rgb(89, 89, 89);
+}
+
+#card-2 {
+    border: 3px solid tomato;
+    border-radius: 8px;
+    background-color: rgb(247, 228, 224);
+}
+
+#card-2 h1 {
+    color: tomato;
+}
+
+.other-donation {
+    text-align: center;
+}
+
+.other-donation input {
+    margin-bottom: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.other-donation hr {
+    margin-bottom: 40px;
+    padding: 0 30px;
+
 }
