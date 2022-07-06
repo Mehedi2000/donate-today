@@ -77,13 +77,13 @@ body {
     color: rgb(89, 89, 89);
 }
 
-#card-2 {
+#donate-card-2 {
     border: 3px solid tomato;
     border-radius: 8px;
     background-color: rgb(247, 228, 224);
 }
 
-#card-2 h1 {
+#donate-card-2 h1 {
     color: tomato;
 }
 
@@ -101,4 +101,63 @@ body {
     margin-bottom: 40px;
     padding: 0 30px;
 
+}
+
+.donate-plan-section {
+    margin-top: 100px;
+}
+
+.plan-description {
+    text-align: center;
+}
+
+.plan-description h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.plan-description p {
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.plan-card {
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 350px;
+    height: 280px;
+
+}
+
+#card-1 {
+    background-color: rgb(225, 248, 248);
+}
+
+#card-2 {
+    background-color: rgb(248, 216, 221);
+}
+
+#card-3 {
+    background-color: rgb(241, 223, 191);
+}
+
+.card-icon {
+    padding: 50px 0 0 20px;
+    margin-bottom: 20px;
+
+}
+
+.card h2 {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card p {
+    padding-left: 20px;
 }
