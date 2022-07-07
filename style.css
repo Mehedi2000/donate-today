@@ -35,7 +35,7 @@ body {
     color: white;
     text-decoration: none;
     background-color: tomato;
-    padding: 15px 40px;
+    padding: 15px 50px;
     border-radius: 10px;
 }
 
@@ -100,7 +100,6 @@ body {
 .other-donation hr {
     margin-bottom: 40px;
     padding: 0 30px;
-
 }
 
 .donate-plan-section {
@@ -236,4 +235,13 @@ body {
     background-color: black;
     color: coral;
     padding: 50px 100px;
+}
+
+.footer h1 {
+    margin-bottom: 15px;
+}
+
+.footer p {
+    color: white;
+    font-size: 15px;
 }
